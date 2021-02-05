@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> -->
+    <link rel="stylesheet" href="./css/bootstrap1.css">
+    <link rel="stylesheet" href="./mycs/inndex.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container-fluid p-0 wrapp">
+        <div class="navs_con">
+            <div class="container">
+                <!-- d-none d-lg-block -->
+                <div class="navs row no-gutters">
+                    <div class="col-md-4 col-4 no-gutters">
+                        <div class="s-user">
+                            <i class="fa fa-user-o" aria-hidden="true"></i>
+                            <span><a href="#">登录</a>/ <a href="#">注册</a></span>
+                        </div>
+                    </div>
+                    <h6 class="offset-4 col-4 titles">小猫咪网站</h6>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-1">
+            <div class="row no-gutters seach d-block d-lg-none">
+                <div class="input-group mb-3">
+                    <input type="text" id="usr" class="form-control onone" placeholder="Your Email">
+                    <div class="input-group-append">
+                    <span id="ssoso" class="input-group-text">搜索</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ll" class="container-fluid p-1">
+            <ul id="list" class="list-unstyled list">
+            </ul>
+        </div>
+        <div id="cc" class="container-fluid p-3">
+            <video controls	 id="video"></video>
+            <div id="jj">
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <ul >
+            <li id="1">
+                <svg class="icon" style="width: 2em; height: 2em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2555"><path d="M959.3 552h-896l41.1-46.4h813.9z" fill="#FF0303" p-id="2556"></path><path d="M959.3 552h-896l41.1 46.4h813.9z" fill="#CE0000" p-id="2557"></path><path d="M918.3 459.2H104.4l41-46.4h731.8z" fill="#FF0303" p-id="2558"></path><path d="M918.3 459.2H104.4l41 46.4h731.8z" fill="#CE0000" p-id="2559"></path><path d="M856.7 366.4H166l41-46.4h608.6z" fill="#FF0303" p-id="2560"></path><path d="M856.7 366.4H166l41 46.4h608.6zM104.4 644.8h813.9l-41.1 46.4H145.4z" fill="#CE0000" p-id="2561"></path><path d="M104.4 644.8h813.9l-41.1-46.4H145.4z" fill="#FF0303" p-id="2562"></path><path d="M166 737.6h690.7L815.6 784H207z" fill="#CE0000" p-id="2563"></path><path d="M166 737.6h690.7l-41.1-46.4H207z" fill="#FF0303" p-id="2564"></path><path d="M268.6 830.4H754l-41 46.4H309.7z" fill="#CE0000" p-id="2565"></path><path d="M268.6 830.4H754L713 784H309.7z" fill="#FF0303" p-id="2566"></path><path d="M309.7 876.8h402.1v51.8H309.7zM492.4 98.2H528v96.3h-35.6z" fill="#FFC74A" p-id="2567"></path><path d="M669.1 287.5H627c0-39-53.3-71.9-116.3-71.9s-116.3 32.9-116.3 71.9h-42.1c0-63.9 69.6-114 158.4-114s158.4 50.1 158.4 114z" fill="#FFC74A" p-id="2568"></path><path d="M394.4 287.5c0-39 53.3-71.9 116.3-71.9S627 248.5 627 287.5h15.8c-14.3-50.2-67.1-86.6-132.1-86.6s-117.7 36.4-132 86.6h15.7z" fill="#231815" opacity=".2" p-id="2569"></path><path d="M207 268.2h607.4V320H207z" fill="#FFC74A" p-id="2570"></path></svg>
+                <p>home</p>
+            </li>
+            <li id="2">
+               <svg class="icon" style="width: 2em; height: 2em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4024"><path d="M935.466106 186.149631 86.484212 186.149631c-13.734816 0-24.970718 11.235902-24.970718 24.970718l0 586.771961c0 13.728676 11.235902 24.969695 24.970718 24.969695l848.981894 0c13.739932 0 24.969695-11.241019 24.969695-24.969695L960.435801 211.121372C960.432731 197.386556 949.206038 186.149631 935.466106 186.149631L935.466106 186.149631zM196.510094 735.466538c0 6.855128-5.621021 12.485359-12.486382 12.485359l-56.17951 0c-6.864338 0-12.486382-5.630231-12.486382-12.485359l0-56.180534c0-6.879688 5.621021-12.485359 12.486382-12.485359l56.17951 0c6.864338 0 12.486382 5.606695 12.486382 12.485359L196.510094 735.466538 196.510094 735.466538zM196.510094 598.133729c0 6.850012-5.621021 12.485359-12.486382 12.485359l-56.17951 0c-6.864338 0-12.486382-5.635347-12.486382-12.485359l0-56.180534c0-6.879688 5.621021-12.483312 12.486382-12.483312l56.17951 0c6.864338 0 12.486382 5.604648 12.486382 12.483312L196.510094 598.133729 196.510094 598.133729zM196.510094 467.061508c0 6.864338-5.621021 12.487406-12.486382 12.487406l-56.17951 0c-6.864338 0-12.486382-5.622044-12.486382-12.487406l0-56.180534c0-6.864338 5.621021-12.485359 12.486382-12.485359l56.17951 0c6.864338 0 12.486382 5.621021 12.486382 12.485359L196.510094 467.061508 196.510094 467.061508zM196.510094 329.727677c0 6.864338-5.621021 12.485359-12.486382 12.485359l-56.17951 0c-6.864338 0-12.486382-5.619998-12.486382-12.485359l0-56.181557c0-6.864338 5.621021-12.485359 12.486382-12.485359l56.17951 0c6.864338 0 12.486382 5.621021 12.486382 12.485359L196.510094 329.727677 196.510094 329.727677zM766.917342 739.63958c0 13.728676-11.226692 24.969695-24.968671 24.969695L280.00267 764.609275c-13.732769 0-24.969695-11.241019-24.969695-24.969695L255.032976 268.862447c0-13.733792 11.236925-24.970718 24.969695-24.970718l461.946001 0c13.743002 0 24.968671 11.236925 24.968671 24.970718L766.917342 739.63958 766.917342 739.63958zM906.592498 735.466538c0 6.855128-5.622044 12.485359-12.486382 12.485359l-56.17951 0c-6.865361 0-12.485359-5.630231-12.485359-12.485359l0-56.180534c0-6.879688 5.619998-12.485359 12.485359-12.485359l56.17951 0c6.864338 0 12.486382 5.606695 12.486382 12.485359L906.592498 735.466538 906.592498 735.466538zM906.592498 598.133729c0 6.850012-5.622044 12.485359-12.486382 12.485359l-56.17951 0c-6.865361 0-12.485359-5.635347-12.485359-12.485359l0-56.180534c0-6.879688 5.619998-12.483312 12.485359-12.483312l56.17951 0c6.864338 0 12.486382 5.604648 12.486382 12.483312L906.592498 598.133729 906.592498 598.133729zM906.592498 467.061508c0 6.864338-5.622044 12.487406-12.486382 12.487406l-56.17951 0c-6.865361 0-12.485359-5.622044-12.485359-12.487406l0-56.180534c0-6.864338 5.619998-12.485359 12.485359-12.485359l56.17951 0c6.864338 0 12.486382 5.621021 12.486382 12.485359L906.592498 467.061508 906.592498 467.061508zM906.592498 329.727677c0 6.864338-5.622044 12.485359-12.486382 12.485359l-56.17951 0c-6.865361 0-12.485359-5.619998-12.485359-12.485359l0-56.181557c0-6.864338 5.619998-12.485359 12.485359-12.485359l56.17951 0c6.864338 0 12.486382 5.621021 12.486382 12.485359L906.592498 329.727677 906.592498 329.727677zM410.788365 619.968014l231.058446-115.2867L410.788365 389.036457 410.788365 619.968014zM410.788365 619.968014" p-id="4025"></path></svg>
+                <p>影视</p>
+            </li>
+            <li id="3">
+                <svg class="icon" style="width: 2em; height: 2em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3466"><path d="M622.816 702.72c-22.112-3.52-22.624-64.32-22.624-64.32s64.96-64.32 79.136-150.816c38.08 0 61.632-91.936 23.52-124.288C704.448 329.28 751.808 96 512 96c-239.808 0-192.448 233.28-190.88 267.328-38.08 32.352-14.56 124.288 23.52 124.288 14.144 86.496 79.136 150.816 79.136 150.816s-0.512 60.8-22.624 64.32C329.952 714.08 64 831.36 64 960l448 0 448 0C960 831.36 694.048 714.08 622.816 702.72z" p-id="3467"></path></svg>
+                <p>user</p>
+            </li>
+        </ul>
+    </div>
+    <script>
+    </script>
+</body>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<!-- <script src="./js/popper.min.js"></script> -->
+<script>
+    function show(...num3){
+            num3.map((e,i)=>{$(['#ll','#cc'][i])[e]()})
+    }
+    show('show','hide')
+    jQuery(function($){
+        addEvent();
+        $('input').focus(e=>{show('show','hide')})
+        $('#ssoso').click(e=>{
+            $.ajax('/users/select?name='+$('input').val()).then(d=>{
+                    let str = d.reduce((str,pop,i)=>{
+                        str+=`<li data-index="${i}"><a href="#">${pop[1]}</a></li>`;
+                        return str;
+                    },' ')
+                    if(str==' '){
+                        str=`<li data-index="-1 "><a href="#">暂无数据</a></li>`
+                    }
+                    $('#list').html('')
+                    $('#list').html(str);
+                    arr = d;
+                    addEvent();
+                })
+        })
+        function addEvent(){
+            $('#list li').on('click',function(e){
+                let index = this.dataset.index;
+                $('#ll').hide();
+                $('#cc').show();
+                show('hide','show')
+                $.ajax('/users/Drama?path='+arr[index][0]).then(data=>{
+                    console.log(data);
+                    let str = data.reduce((str,pop,i)=>{
+                        let li = pop.reduce((str,e,i)=>{
+                           str+=`<li><a href="#" data-index="${i}" data-url="${e[0]}">${e[1]}</a></li>`;
+                           return str;
+                        },'')
+                        str += `
+                            <div class="row yuan">
+                                <div class="col-12 ">第${i}条线路</div>
+                                <ul>${li}</ul>
+                            </div>`;
+                        return str;
+                    },'')
+                    $('#jj').html(str);
+                    addEvents($('.yuan li'));
+                })
+
+            })
+        }
+        function addEvents(data){
+           $(data).find('a').click(function(e){
+               var index = this.dataset.index;
+               $.get('/users/jishu?path='+this.dataset.url).then(d=>{
+                    eval(d);
+                    play(mac_urlx10d26.split('#')[index].split('$')[1])
+               })
+           })
+        }    })
+        $('.bottom li').click(function(){
+            show(['hide','show'][this.id==2?0:1],['hide','show'][this.id==1?0:1])
+        })
+</script>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script>
+  function play(url){
+    var video = document.getElementById('video');
+  if(Hls.isSupported()) {
+    var hls = new Hls();
+    hls.loadSource(url);
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    video.src =url;
+    video.addEventListener('loadedmetadata',function() {
+      video.play();
+    });
+  }
+  }
+</script>
+</html>

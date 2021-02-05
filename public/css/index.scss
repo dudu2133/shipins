@@ -1,0 +1,9 @@
+$mycolor:#ccd;
+$content:'width';
+p{
+    width:100px;
+
+}
+p::after{
+    content: $content;
+}

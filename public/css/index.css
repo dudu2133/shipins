@@ -1,0 +1,8 @@
+p {
+  width: 100px;
+}
+
+p::after {
+  content: "width";
+}
+/*# sourceMappingURL=index.css.map */
